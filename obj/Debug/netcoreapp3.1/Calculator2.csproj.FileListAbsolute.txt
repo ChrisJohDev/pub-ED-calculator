@@ -1,0 +1,13 @@
+F:\Education\Lexicon\Programmerare .NET\Inlämningsuppgifter\01 CSharp\Calculator2\obj\Debug\netcoreapp3.1\Calculator2.csprojAssemblyReference.cache
+F:\Education\Lexicon\Programmerare .NET\Inlämningsuppgifter\01 CSharp\Calculator2\obj\Debug\netcoreapp3.1\Calculator2.AssemblyInfoInputs.cache
+F:\Education\Lexicon\Programmerare .NET\Inlämningsuppgifter\01 CSharp\Calculator2\obj\Debug\netcoreapp3.1\Calculator2.AssemblyInfo.cs
+F:\Education\Lexicon\Programmerare .NET\Inlämningsuppgifter\01 CSharp\Calculator2\obj\Debug\netcoreapp3.1\Calculator2.csproj.CoreCompileInputs.cache
+F:\Education\Lexicon\Programmerare .NET\Inlämningsuppgifter\01 CSharp\Calculator2\bin\Debug\netcoreapp3.1\Calculator2.exe
+F:\Education\Lexicon\Programmerare .NET\Inlämningsuppgifter\01 CSharp\Calculator2\bin\Debug\netcoreapp3.1\Calculator2.deps.json
+F:\Education\Lexicon\Programmerare .NET\Inlämningsuppgifter\01 CSharp\Calculator2\bin\Debug\netcoreapp3.1\Calculator2.runtimeconfig.json
+F:\Education\Lexicon\Programmerare .NET\Inlämningsuppgifter\01 CSharp\Calculator2\bin\Debug\netcoreapp3.1\Calculator2.runtimeconfig.dev.json
+F:\Education\Lexicon\Programmerare .NET\Inlämningsuppgifter\01 CSharp\Calculator2\bin\Debug\netcoreapp3.1\Calculator2.dll
+F:\Education\Lexicon\Programmerare .NET\Inlämningsuppgifter\01 CSharp\Calculator2\bin\Debug\netcoreapp3.1\Calculator2.pdb
+F:\Education\Lexicon\Programmerare .NET\Inlämningsuppgifter\01 CSharp\Calculator2\obj\Debug\netcoreapp3.1\Calculator2.dll
+F:\Education\Lexicon\Programmerare .NET\Inlämningsuppgifter\01 CSharp\Calculator2\obj\Debug\netcoreapp3.1\Calculator2.pdb
+F:\Education\Lexicon\Programmerare .NET\Inlämningsuppgifter\01 CSharp\Calculator2\obj\Debug\netcoreapp3.1\Calculator2.genruntimeconfig.cache
