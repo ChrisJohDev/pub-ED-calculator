@@ -333,11 +333,11 @@ namespace Calculator2
         static string Division(string data)
         {
             double sum = 1.0;
-            string[] items = data.Split('*');
+            string[] items = data.Split('/');
             string ret = "";
             bool ok = true;
 
-            if (items.Length == 1 && IsNumber(items[0]) && IsNumber(items[1]))
+            if (items.Length == 2 && IsNumber(items[0]) && IsNumber(items[1]))
             {
                 sum = Convert.ToDouble(items[0]) / Convert.ToDouble(items[1]);
             }
