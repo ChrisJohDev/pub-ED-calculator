@@ -1,14 +1,7 @@
-# Calculator Inlämningsuppgift
+Hello,
 
-Hej Jonathan,
+This is a simple commandline calculator. It should be able to use paranthesis, power to, multiplication, addition, division and subtractraction. It only supports single paranthesis and not any nested. Might come with an update at some point.
 
-Jag gjorde det nog lite krångligare för mig än det var tänkt. 
-Men nu skall den fungera. Den tar paranteser och power to "^" och även
-uttryck som 2^(4+5) etc.
+Please, feel free to use clone and ripp the code to your hearts delight. If anyone has any impo=rovements or better solutions please let me know.
 
-Det kan hända att det finns någon/några buggar kvar men har inte hittat dom nu i eftermiddag i alla fall.
-
-Om jag hittar något under helgen så skickar jag in en uppdatering.
-
-MVH,
-Chris
+Best regards, Chris

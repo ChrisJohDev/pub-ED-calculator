@@ -1,3 +1,5 @@
 .vs
 /bin/
 /obj/
+.gitattributes
+ReadMe-se.md
