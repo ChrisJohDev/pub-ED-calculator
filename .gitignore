@@ -1,5 +1,5 @@
-.vs
-/bin/
-/obj/
+.vs/
+bin/
+obj/
 .gitattributes
 ReadMe-se.md
