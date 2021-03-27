@@ -147,7 +147,7 @@ namespace Calculator2
                 }
                 else if (ok && indxModulus > 0)
                 {
-                    tmp = Modulus(ret);
+                    tmp = FindExpression(ret, "%");
                     ret = tmp;
                     ok = false; // Modulus cannot be apart of an espression.
                 }
@@ -253,8 +253,16 @@ namespace Calculator2
             }
 
             tmpRes = Calculate(tmp);
-            ret = ret.Replace(tmp, tmpRes);
 
+            if (oData == "%")
+            {
+                ret = tmpRes;
+            }
+            else
+            {
+                ret = ret.Replace(tmp, tmpRes);
+            }
+            
             return ret;
         }
 
@@ -308,11 +316,6 @@ namespace Calculator2
 
 
         /* ***** Calculation functions START ***** */
-        /* All calculation functions receives a string with only the simple calculation to perform and returns the result of that calculation. 
-         * Formats:
-         * Data in: string, 
-         * Data out: string
-         */
         static string Addition(string data)
         {
             double sum = 0.0;
