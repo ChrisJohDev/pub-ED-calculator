@@ -1,5 +1,8 @@
 ﻿using System;
 using System.Text.RegularExpressions;
+using System.Threading.Tasks;
+using System.Globalization;
+using System.IO;
 
 namespace Calculator2
 {
@@ -88,7 +91,19 @@ namespace Calculator2
             return ret;
         }
 
-        
+        static int DecimalsCount(double data)
+        {
+            string[] tmp = data.ToString().Split(".");
+            if (tmp.Length < 2)
+            {
+                return 0;
+            }
+            else
+            {
+                return tmp[1].Length;
+            }
+
+        }
         private static string Evaluate(string data)
         {
             string pOpen = @"[\(]";
@@ -292,6 +307,19 @@ namespace Calculator2
 
         static void Output(string origData, string calcData = "", string messageData = "")
         {
+            NumberFormatInfo nfi = new CultureInfo("en-US", false).NumberFormat;
+
+            if (calcData != "" && IsNumber(calcData))
+            {
+                double tmp = Convert.ToDouble(calcData);
+                if (DecimalsCount(tmp) > 10)
+                {
+                    tmp = Math.Round(tmp, 10);
+                    nfi.NumberDecimalDigits = DecimalsCount(tmp);
+                    calcData = tmp.ToString("N", nfi);
+                }
+            }
+
             if (messageData == "")
             {
                 if (calcData != "")
